@@ -1,4 +1,4 @@
-Consulta 1 
+-- Consulta 1 
 
 SELECT
     MONTH(fecha_venta) AS mes,
@@ -9,7 +9,7 @@ FROM ventas
 GROUP BY MONTH(fecha_venta)
 ORDER BY mes;
 
-Consulta 2 
+-- Consulta 2 
 
 SELECT TOP 5
     id_producto,
@@ -20,7 +20,7 @@ GROUP BY id_producto
 ORDER BY total_facturado DESC;
 
 
-Consulta 3
+-- Consulta 3
 
 SELECT
     id_cliente,
